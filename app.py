@@ -11,3 +11,4 @@ t = st.number_input("시간 t (단위: 시간)", min_value=0.0, step=0.5)
 
 if t >= 0:
     st.write(f"📉 예상 피로도: **{fatigue(t):.2f} 점**")
+Add app.py
